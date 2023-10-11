@@ -34,7 +34,7 @@ https://repo.quantom.info/qhb/std-1/doc/1.5.1/ru/Appendix/download.html#qhb-дл
     sudo mkdir /opt/qhb
     sudo chown qhb:qhb /opt/qhb /usr/local/qhb
     sudo su - qhb
-    echo 'set PATH=/usr/local/qhb/bin:$PATH' >> ~/.profile
+    echo 'export PATH=/usr/local/qhb/bin:$PATH' >> ~/.profile
 
 Инициализируйте кластер баз данных при помощи утилиты initdb или qhb_bootstrap. В данном примере /opt/qhb/data — расположение каталога базы данных.
 
