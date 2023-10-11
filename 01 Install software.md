@@ -43,3 +43,6 @@ https://repo.quantom.info/qhb/std-1/doc/1.5.1/ru/Appendix/download.html#qhb-дл
  You can now start the database server using:
 
     /usr/local/qhb/bin/qhb_ctl -D /opt/qhb/data -l logfile start
+
+**Настройка сервиса**
+https://repo.quantom.info/qhb/std-1/doc/1.5.1/ru/Guides/how-to-setup-service.html
